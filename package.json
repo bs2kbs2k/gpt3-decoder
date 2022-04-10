@@ -1,0 +1,19 @@
+{
+  "name": "gpt3-decoder",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.2.1",
+    "path-browserify": "^1.0.1",
+    "prettier": "2.5.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "gpt-3-encoder": "^1.1.3"
+  }
+}
