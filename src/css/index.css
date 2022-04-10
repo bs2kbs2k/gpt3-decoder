@@ -15,9 +15,9 @@ html {
 }
 
 textarea {
+  height: 200px;
+  max-width: 600px;
   width: 100%;
-  min-height: 200px;
-  min-width: 600px;
   padding: 10px 12px;
   font-size: 15px;
   font-family: monospace;
@@ -35,4 +35,10 @@ button {
   padding: 5px 10px;
   background-color: #131516;
   color: #d8d4cf;
+}
+
+#app {
+  max-width: 600px;
+  width: 100%;
+  margin-right: 26px;
 }
